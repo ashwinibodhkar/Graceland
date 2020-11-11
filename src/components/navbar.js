@@ -41,25 +41,22 @@ export default function ButtonAppBar() {
                         <span></span>
                         <span></span>
                     </div>
-                        
                     {/* close mark ends */}
                 </NavbarToggler>
-                    
-                <Collapse isOpen={isOpen} navbar className='nav-item'>
+                <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <Link to='#'>Home</Link>
+                            <Link to="/" onClick={toggle}>Home</Link>
                         </NavItem>
                         <NavItem>
-                            <Link to='#'>Deals</Link>
-                        </NavItem>
+                            <Link to="#deals" onClick={toggle}>Deals</Link>
+                        </NavItem>   
                         <NavItem>
-                            <Link to='#'>About</Link>
-                        </NavItem>
+                            <Link to="#about" onClick={toggle}>About</Link>
+                        </NavItem> 
                         <NavItem>
-                            <Link to='#'>Contact</Link>
-                        </NavItem>
-                            
+                            <Link to="#contactUs" onClick={toggle}>Contact Us</Link>
+                        </NavItem> 
                     </Nav>
                 </Collapse>
             </Navbar>

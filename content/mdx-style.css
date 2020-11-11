@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-.Map{
+.Map-div{
+    background-color: cornsilk;
+}
+
+.map-title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: darkgreen;
+    font-size: 70px;
+}
+
+.map-frame{
     margin-left: 550px;
 }
 
@@ -30,22 +44,45 @@
     width: 100%;
 }
 
+
+
 .ly-map-title{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 50px;
     font-size: 70px;
     color: darkblue;
     font-family: 'Cinzel', serif;
 }
 
-@media screen and (max-with: 670px){
-    .Map{
+@media screen and (max-width: 670px){
+    .map-title{
+        font-size: 30px;
+    }
+    .map-frame{
         margin-left: 30px;
-        margin-top: 60px
+        margin-bottom: 92px;
     }
     .info-div{
-        width: 85%;
-        margin-right: 12px;
+        width: 320px;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    .info-title1{
+        font-size: 45px;
+        margin-left: -70px;
+        margin-top: -40px;
+    }
+    .fac-items{
+        font-size: 20px;
+        text-align: left;
+        margin-left: -100px;
+        margin-right: -35px;
+        margin-top: -40px;
+        line-height: 30px;
+        inline-size: fit-content;
+    }
+    .ly-map-title{
+        font-size: 50px;
     }
 }

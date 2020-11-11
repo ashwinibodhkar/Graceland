@@ -1,42 +1,44 @@
+/* Navbar Hamburger animation */
+
 #close-icon {
-    width: 30px;
-    height: 35px;
-    position: relative;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-  }
-  
+  width: 30px;
+  height: 35px;
+  position: relative;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
 #close-icon span {
-    display: block;
-    height: 2px;
-    width: 100%;
-    background: #d3531a;
-    border-radius: 2px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-    margin-top: 5px;
-  }
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #d3531a;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  margin-top: 5px;
+}
 
 
-  /* Close Icon */
+/* Close Icon */
 
 #close-icon {
-    padding: 2px;
+  padding: 2px;
 }
 
 #close-icon span:nth-child(1) {
@@ -90,36 +92,39 @@
 }
 
 button:focus {
-    outline: none !important;
-    
+  outline: none !important;
+  
 }
 
 .navbar-light .navbar-toggler {
-    border-color: none;
-    border: 0px;
-    
+  border-color: none;
+  border: 0px;
+  
 }
 
 /* Navbar Hamburger animation */
 
-.navbar-nav{
+/* .navbar-nav{
   padding-left: 650px;
   margin-bottom: -10px;
-}
+} */
 
 #header-container{
   width: 100%;
   z-index: 1;
 }
 
+.nav-item{
+  margin-top: 20px;
+}
+
+
 @media (max-width: 670px){
-    #header-container{
-        width: 100%;
-        z-index: 1
-    }
     .nav-item{
-      margin-left: -5px;
-      font-size: 40px;
-      line-height: 15px;
-    }
+        margin-left: -5px;
+        font-size: 40px;
+        line-height: 15px;
+        line-height: 2px;
+        margin-top: 10px;
+    }   
 }

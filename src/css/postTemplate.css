@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
 .temp-wrap{
-    background: rgba(0,0,0,0.5) 
-                url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80')
+    background: url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80')
                 no-repeat;
     min-height: 100vh;
     background-position: center;
@@ -14,10 +13,17 @@
     background-blend-mode: overlay;
 }
 
+.head-wrap{
+    background: darkturquoise;
+    opacity: 0.7;
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 420px;
+}
+
 .Book-head{
     text-align: center;
     font-size: 80px;
-    background: skyblue;
     margin: 260px;
     padding: 50px 10px 50px 10px;
     font-family: 'Playfair Display SC', serif;
@@ -25,26 +31,34 @@
     word-spacing: 10px;
     color: navy;
     width: 1000px;
-    margin-left: 350px;
+    margin-left: -10px;
+    margin-top: 130px;
+    margin-bottom: 210px;
 }
 
 .temp-title{
     text-align: center;
     margin-top: -230px;
     font-family: 'Marck Script', cursive;
-    color: white;
+    color: darkred;
     font-size: 60px;
 }
 
 @media screen and (max-width: 670px){
+    .head-wrap{
+        width: 340px;
+        height: 250px;
+        margin-left: 10px;
+        margin-right: 60px;
+    }
     .temp-wrap{
         min-height: 640px;
     }
     .Book-head{
-        margin-left: 20px;
-        margin-left: -200px;
+        margin-left: -210px;
         font-size: 50px;
         padding: 30px 230px 40px 0px;
+        margin-top: 230px;
     }
     .temp-title{
         font-size: 40px;

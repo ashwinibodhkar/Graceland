@@ -7,7 +7,7 @@ import RoomOutlinedIcon from '@material-ui/icons/RoomOutlined'
 
 const ContactForm = () => (
 
-    <div className='contact-form'>
+    <div className='contact-form' id='contactUs'>
         <h2 className='contact-title'>Contact Us</h2>
         <div className="contact-us">
             <div className='address'>

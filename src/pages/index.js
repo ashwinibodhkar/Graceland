@@ -18,6 +18,7 @@ import {
     DropdownItem,
     NavbarText
   } from 'reactstrap';
+import CarouselComp from '../components/carouselComp'
 
 const IndexPage = ({ data }) => {
     const { edges: posts } = data.allMdx;
@@ -45,8 +46,10 @@ const IndexPage = ({ data }) => {
             </div> 
             {/* End of head design */}
 
+            <CarouselComp/>
+
             {/* Cards */}
-            <Container>
+            <Container id='deals'>
                 <Row className='CardRow' >
                     {posts.map(({ node: post }) => (
                         
