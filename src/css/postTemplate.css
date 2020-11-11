@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.temp-wrap{
+    background: rgba(0,0,0,0.5) 
+                url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80')
+                no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    background-blend-mode: overlay;
+}
+
+.Book-head{
+    text-align: center;
+    font-size: 80px;
+    background: skyblue;
+    margin: 260px;
+    padding: 50px 10px 50px 10px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 100px;
+    word-spacing: 10px;
+    color: navy;
+    width: 1000px;
+    margin-left: 350px;
+}
+
+.temp-title{
+    text-align: center;
+    margin-top: -230px;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 670px){
+    .temp-wrap{
+        min-height: 640px;
+    }
+    .Book-head{
+        margin-left: 20px;
+        margin-left: -200px;
+        font-size: 50px;
+        padding: 30px 230px 40px 0px;
+    }
+    .temp-title{
+        font-size: 40px;
+    }
+}

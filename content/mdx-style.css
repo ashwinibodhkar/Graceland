@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+.Map{
+    margin-left: 550px;
+}
+
+.info-div{
+    border-radius: 25px;
+    background-color: aliceblue;
+    width: 1500px;
+    margin-left: 90px;
+    padding: 80px 40px 20px 120px;
+}
+
+.info-title1{
+    margin-left: 20px;
+    font-size: 90px;
+    margin-bottom: 70px;
+    font-family: 'Cinzel', serif;
+    color: green;
+}
+
+.fac-items{
+    line-height: 80px;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.img{
+    width: 100%;
+}
+
+.ly-map-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    color: darkblue;
+    font-family: 'Cinzel', serif;
+}
+
+@media screen and (max-with: 670px){
+    .Map{
+        margin-left: 30px;
+        margin-top: 60px
+    }
+    .info-div{
+        width: 85%;
+        margin-right: 12px;
+    }
+}
